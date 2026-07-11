@@ -1,5 +1,34 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "releases": []
+  "releases": [
+    {
+      "version": "0.64.0",
+      "tag": "v0.64.0",
+      "releaseDate": "2026-07-11T00:00:00.000Z",
+      "withdrawn": false,
+      "notes": {
+        "it": [
+          "Controllo silente e aggiornamento direttamente nell'applicazione.",
+          "Download verificato tramite catalogo firmato e hash SHA-512.",
+          "Backup automatico e sincronizzazione completata prima del riavvio."
+        ],
+        "en": [
+          "Silent checks and updates directly inside the application.",
+          "Downloads verified through a signed catalog and SHA-512 hashes.",
+          "Automatic backup and synchronization flush before restart."
+        ]
+      },
+      "artifacts": {
+        "windowsX64": {
+          "setup": {
+            "file": "QB_Setup_x64.exe",
+            "size": 102647863,
+            "sha256": "0c6d629ef01ce2d04108d12878ded37abf6757b59272dc4988bd5582c055916f",
+            "sha512": "J+r55GDfVrKSL0+syazK28DHGImUqWZREytc2FfK2aUBt6x0JBNER79PAGjikktmTcx0toW464W2El3xM8r9yQ=="
+          }
+        }
+      }
+    }
+  ]
 }
