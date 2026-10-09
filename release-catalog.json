@@ -29,6 +29,36 @@
           }
         }
       }
+    },
+    {
+      "version": "0.65.0",
+      "tag": "v0.65.0",
+      "releaseDate": "2026-10-09T00:00:00.000Z",
+      "withdrawn": false,
+      "notes": {
+        "it": [
+          "Collegamento facoltativo con i client IA installati sul computer: lettura dei dati e modifiche con anteprima e una sola conferma, annullabili da QB.",
+          "Se QB è chiuso, le modifiche confermate lo avviano e vengono applicate con la stessa logica dell'app.",
+          "Provider IA e trascrizione vocale riuniti in una sola pagina, con libera scelta del modello.",
+          "Interfaccia semplificata, ricerca e filtri più rapidi, profili di prestazioni adattivi e correzioni alle scorciatoie."
+        ],
+        "en": [
+          "Optional connection with the AI clients installed on the computer: data reading and changes with a preview and a single confirmation, undoable from QB.",
+          "If QB is closed, confirmed changes start it and are applied with the same logic as the app.",
+          "AI providers and voice transcription in a single page, with free choice of the model.",
+          "Simpler interface, faster search and filters, adaptive performance profiles and shortcut fixes."
+        ]
+      },
+      "artifacts": {
+        "windowsX64": {
+          "setup": {
+            "file": "QB_Setup_x64.exe",
+            "size": 97791739,
+            "sha256": "59c9490e8e1a9a6c9277023b224cb1a49d1c665f33d462ab8a8d4afe2ddc372c",
+            "sha512": "ynhdZfFyvwIfEGZKzxsHx2IJtC5lVQ5UC1KQxhwIugJ0qArFm6sU4782IYA1giYSe3JQeJr3hbt0ipRG8FtHbw=="
+          }
+        }
+      }
     }
   ]
 }
