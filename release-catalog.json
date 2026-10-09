@@ -59,6 +59,36 @@
           }
         }
       }
+    },
+    {
+      "version": "0.66.0",
+      "tag": "v0.66.0",
+      "releaseDate": "2026-10-09T16:00:00.000Z",
+      "withdrawn": false,
+      "notes": {
+        "it": [
+          "Comandi preimpostati per i client IA: panoramica contratti, revisione delle scadenze, giornata e punto su un progetto.",
+          "Analisi delle scadenze e dei contratti, con dipendenze e giorni lavorativi.",
+          "I client IA possono mettere attività in Oggi e impostare promemoria; l'anteprima mostra le attività che slittano.",
+          "Collegamento più affidabile con i client che vanno chiusi prima di aggiornarne la configurazione."
+        ],
+        "en": [
+          "Preset commands for AI clients: contracts overview, deadline review, daily plan and project status.",
+          "Deadline and contract analysis, with dependencies and working days.",
+          "AI clients can put activities in Today and set reminders; the preview shows the activities that shift.",
+          "More reliable connection with clients that must be closed before updating their configuration."
+        ]
+      },
+      "artifacts": {
+        "windowsX64": {
+          "setup": {
+            "file": "QB_Setup_x64.exe",
+            "size": 97799219,
+            "sha256": "e55c86be1e18274237a9c4421b663cc2a4c06a7f9d19dfc88e36d0278dee1614",
+            "sha512": "IXOj7Wbk3/EobyJj1vlMNyXSbmiUrb1E3DFooY7ZZDEUAbVY6I1d7lmas9jbhnuwW94Tg4xgxl4vMlggNdcGOg=="
+          }
+        }
+      }
     }
   ]
 }
